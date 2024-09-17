@@ -1,11 +1,5 @@
 fun isGreater(a: Int,b: Int,c:Int,d:Int ): Boolean {
-    val sum_ab = a + b
-    if ( sum_ab > c || sum_ab > d) {
-        return true
-    }
-    else{
-        return false
-    }
+    return if (a+b > c) true else false
 }
 
 fun main() {

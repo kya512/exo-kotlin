@@ -1,6 +1,5 @@
-fun tip(bill: Int, percentage: Int): Int {
-    val gratuity =
-    return
+fun tip(bill: Int, percentage: Int = 10): Int {
+    return percentage
 }
 
 fun main() {
