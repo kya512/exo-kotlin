@@ -4,7 +4,7 @@ class Rectangle {
 }
 
 fun printArea(rectangle: Rectangle) {
-    // ...
+    return 
 }
 
 fun main() {

@@ -1,4 +1,8 @@
-// write your code here
+class Planet{
+    var star: String = ""
+    var mass: Double = 0.0
+    var numberOfSatellites: Int = 0
+}
 
 
 fun main() {
