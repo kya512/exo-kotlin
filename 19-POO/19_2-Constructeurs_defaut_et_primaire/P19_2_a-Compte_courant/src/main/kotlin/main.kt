@@ -1,5 +1,6 @@
-// write the BankAccount class here
-
+class BankAccount(deposited: Long, withdrawn: Long){
+    val balance = deposited - withdrawn
+}
 
 fun main() {
     val account = BankAccount(100, 20)
